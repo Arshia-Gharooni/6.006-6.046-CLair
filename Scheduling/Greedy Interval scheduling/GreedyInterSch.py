@@ -1,10 +1,5 @@
 def interval_scheduling(intervals):
-    """
-    Finds the maximum number of non-overlapping intervals using greedy algorithm.
-
-    :param intervals: A list of tuples representing the intervals. Each tuple contains the start and end time of the interval.
-    :return: The maximum number of non-overlapping intervals.
-    """
+    
     # sort the intervals by end time in ascending order
     intervals = sorted(intervals, key=lambda x: x[1])
 
